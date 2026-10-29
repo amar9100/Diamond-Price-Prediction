@@ -1,0 +1,31 @@
+DIAMOND PRICE PREDICTION DATASET
+
+Dataset Name: Diamonds Dataset
+
+Description:
+This dataset contains information about diamonds and their characteristics. It is used to build a machine learning model that predicts diamond prices using the K-Nearest Neighbors (KNN) Regression algorithm.
+
+Features:
+
+1. carat: Weight of the diamond.
+2. cut: Quality of the diamond's cut.
+3. color: Color grade of the diamond.
+4. clarity: Clarity grade of the diamond.
+5. depth: Total depth percentage of the diamond.
+6. table: Width of the top of the diamond relative to its widest point.
+7. x: Length of the diamond in millimeters.
+8. y: Width of the diamond in millimeters.
+9. z: Height of the diamond in millimeters.
+10. price: Price of the diamond (target variable).
+
+Objective:
+To develop a machine learning model using KNN Regression to predict diamond prices based on their characteristics.
+
+Machine Learning Tasks:
+- Load and explore the dataset.
+- Preprocess numerical and categorical features.
+- Split the dataset into training and testing sets using a 75:25 ratio.
+- Train a KNN Regressor.
+- Evaluate the model using MAE, RMSE, and R² score.
+- Save the trained model using Pickle.
+- Deploy the application using Streamlit.
